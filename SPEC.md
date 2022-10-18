@@ -106,6 +106,11 @@ This <ins>optional</ins> key’s value (type string) shall contain the PCI addre
 of the associated physical interface (in standard BDF format “dddd:BB:DD.f”) if
 available and applicable.
 
+#### 3.1.3.5 “representor-device”
+
+This <ins>optional</ins> key’s value (type string) shall contain the name
+of the representor device for PCI VF (e.g. "eth3") if available and applicable.
+
 ### 3.1.4 “vdpa”
 
 This <ins>optional</ins> (<ins>required</ins> if “type” is set to “vdpa”) key’s
@@ -142,6 +147,11 @@ a PCI device (VF or PF).
 This <ins>optional</ins> key’s value (type string) shall contain the PCI address
 of the associated physical interface (in standard BDF format “dddd:BB:DD.f”) if
 available and applicable.
+
+#### 3.1.4.6 “representor-device”
+
+This <ins>optional</ins> key’s value (type string) shall contain the name
+of the representor device for PCI VF (e.g. "eth3") if available and applicable.
 
 ### 3.1.5 “vhost-user”
 
