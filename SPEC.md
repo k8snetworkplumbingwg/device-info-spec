@@ -337,8 +337,8 @@ Definition, the CNI plugin should receive the value of the CNI Plugin Device
 Information File as part of the RuntimeConfig section of the CNI Args.
 
 If a file exists in the CNI Plugin Device Information File path, the CNI Plugin
-can read the Device Information file it contains (that has the same content as
-the associated Device Plugin Device Information File).
+can read (the file has the same content as the associated Device Plugin Device Information File) 
+and if required update the Device Information it contains.
 
 If a file does not exist in the CNI Plugin Device Information File path, the CNI
 Plugin can write json-encoded device information to it following the Device
